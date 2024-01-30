@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Bible Verse</title>
     <link rel="stylesheet" href="style.css">
-    <script href="index.js"></script>
+    <script src="index.js" defer></script>
 </head>
 <body>
     <header>
@@ -14,15 +14,24 @@
         <h1>random bible verse</h1>
     </header>
     <main>
-        <h2 class = "where">
-            <span id="book">genesis</span>
+        <div class="content">
+            <h2>
+            <span id="book">Genesis</span>
             ->
             <span id="chapter">1</span>
             ->
+
             <span id="verse">1</span>
         </h2>
-        <article id="text">fgsdfgsdfgsdfgsdfgsdfgsdfgeg</article>
-        <button id="new">Új</button>
+        <div class = "grid-container">
+            <article id="verse_text">In the beginning God created the heavens and the earth.</article>
+
+            <button id="uj">Új</button>
+        </div>
+        <aside><img src="../resources/plakatkampany.jpg" alt="meme" class="reklam"></aside>
+
+        </div>
+
     </main>
     <footer>
 
