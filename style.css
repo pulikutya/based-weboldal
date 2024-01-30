@@ -1,0 +1,105 @@
+*
+{
+    /margin:0;padding:0;/
+    border-radius: 10px;
+    border-color:#00B000;color:#B0B0B0;
+    font-family:'Cascadia Code','Consolas','Courier New',Courier,monospace;
+    font-size: xx-large;
+}
+
+body
+{
+    background-color: #000000;
+}
+
+body *
+{
+    background-color: #080808;
+}
+
+body * *
+{
+    background-color: #101010;
+}
+
+body * * *
+{
+    background-color: #181818;
+}
+
+body * * * *
+{
+    background-color:#202020;
+}
+
+header
+{
+    border-radius:0;
+    border-bottom-style: solid;
+    margin-bottom: 5%;
+}
+
+h1 
+{
+    text-align: center;
+}
+
+nav
+{
+    display:flex;
+    flex-direction: column;
+}
+
+main
+{
+
+}
+
+nav *
+{
+    display:inline-flex;
+}
+
+footer
+{
+    margin-top: 10%;
+    border-top-style:solid;
+    border-radius:0;
+}
+
+button
+{
+    background-color: magenta;
+    border-color: lightgrey;
+    padding: 5px, 5px, 5px, 5px;
+    margin: 5px, 5px, 5px, 5px;
+}
+
+#uj {
+    padding: 3% 20%;
+    font-size: 20pt;
+}
+
+.grid-container
+{
+    display:grid;
+    grid-template-columns: 70% 20%;
+    gap: 10%;
+    padding: 10px 10px;
+}
+
+.content
+{
+    margin: 3% 3%;
+}
+
+aside
+{
+    text-align: center;
+    margin: 600px 0px;
+    padding: 0px 50px;
+}
+
+.reklam {
+    text-align: center;
+}
